@@ -114,7 +114,7 @@ const toggleTheme = () => {
         }
 
         @media (max-width: 830px) {
-            width: 400px;
+            width: 330px;
         }
     }
 }

@@ -62,6 +62,11 @@ const props = defineProps({
     border: 1px solid var(--neutral-600);
     border-radius: 16px;
     padding: 1.5rem;
+
+    @media (max-width: 768px) {
+        width: 330px;
+    }
+
     .box-header {
         display: flex;
         flex-direction: row;
