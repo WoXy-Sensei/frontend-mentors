@@ -41,10 +41,6 @@
 
 body {
     font-family: "Noto Sans", sans-serif;
-    background: var(--bg-gradient);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
 }
 
 body:has(.light-theme) {

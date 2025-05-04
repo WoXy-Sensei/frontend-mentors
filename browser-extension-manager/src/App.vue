@@ -89,10 +89,8 @@ const toggleTheme = () => {
 
 <style scoped lang="scss">
 .page {
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    align-items: center;
+    padding: 3rem;
+    background: var(--bg-gradient);
 
     .container {
         width: 1200px;
@@ -100,6 +98,7 @@ const toggleTheme = () => {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin: auto auto;
 
         @media (max-width: 1200px) {
             width: 800px;
