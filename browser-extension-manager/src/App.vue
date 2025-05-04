@@ -94,14 +94,6 @@ const toggleTheme = () => {
     padding: 1rem;
     align-items: center;
 
-    font-family: "Noto Sans", sans-serif;
-    background: var(--bg-gradient);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-
-    min-height: 100vh;
-
     .container {
         width: 1200px;
         display: flex;
