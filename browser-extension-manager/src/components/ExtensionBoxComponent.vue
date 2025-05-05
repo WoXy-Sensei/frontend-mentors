@@ -21,7 +21,7 @@ const props = defineProps({
     <div class="box">
         <div class="box-header">
             <div class="box-image">
-                <img :src="extension.logo" alt="" width="50px" />
+                <img :src="extension.logo" alt="" width="50" />
             </div>
             <div class="box-content">
                 <div class="title">{{ extension.name }}</div>
