@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+    --primary-orange: hsl(25, 97%, 53%);
+
+    --neutral-white: hsl(0, 100%, 100%);
+    --neutral-grey-500: hsl(217, 12%, 63%);
+    --neutral-grey-900: hsl(213, 19%, 18%);
+    --neutral-grey-950: hsl(216, 12%, 8%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Overpass", sans-serif;
+    background-color: var(--neutral-grey-950);
+    color: var(--neutral-white);
+}

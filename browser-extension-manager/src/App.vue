@@ -90,8 +90,6 @@ const toggleTheme = () => {
 <style scoped lang="scss">
 .page {
     padding: 3rem;
-    background: var(--bg-gradient);
-
     .container {
         width: 1200px;
         display: flex;
