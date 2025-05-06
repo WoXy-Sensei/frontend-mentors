@@ -35,15 +35,13 @@
     align-items: center;
     justify-content: center;
     padding: 1.2rem;
-    border-radius: 1rem;
+    border-radius: 1.5rem;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     background-color: var(--white);
-
     width: 350px;
 }
 
 .qrcode-component .qr-image {
-    margin-bottom: 1rem;
     width: 100%;
     border-radius: 1rem;
     overflow: hidden;
@@ -62,6 +60,7 @@
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
+    color: var(--slate-900);
 }
 
 .qrcode-component .content .description {
