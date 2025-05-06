@@ -26,6 +26,7 @@
     align-items: center;
     height: 100vh;
     background-color: var(--slate-300);
+    padding: 15px;
 }
 
 .qrcode-component {
