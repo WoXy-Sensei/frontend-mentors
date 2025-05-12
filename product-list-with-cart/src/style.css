@@ -30,8 +30,10 @@ body {
     font-family: var(--font-inter);
     font-weight: var(--font-weight-normal);
     background: var(--rose-100);
+    
 }
 
 a {
     text-decoration: none;
 }
+

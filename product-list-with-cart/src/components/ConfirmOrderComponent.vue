@@ -92,8 +92,9 @@ const totalPrice = computed(() => {
     }
 
     .confirm-order {
+        height: 100%;
+        overflow-y: auto;
         width: 550px;
-        min-height: 550px;
         background: white;
         padding: 40px;
         display: flex;
@@ -103,6 +104,10 @@ const totalPrice = computed(() => {
         @media screen and (max-width: 768px) {
             min-height: 750px;
             padding: 20px;
+        }
+
+        &::-webkit-scrollbar {
+            width: 0px;
         }
 
         img {
