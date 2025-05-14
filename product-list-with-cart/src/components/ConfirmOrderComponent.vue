@@ -92,8 +92,7 @@ const totalPrice = computed(() => {
     }
 
     .confirm-order {
-        height: 100%;
-        overflow-y: auto;
+        height: 750px;
         width: 550px;
         background: white;
         padding: 40px;
@@ -130,6 +129,8 @@ const totalPrice = computed(() => {
         .confirm-order-result {
             background: var(--rose-100);
             border-radius: 5px;
+            height: 100%;
+            overflow-y: auto;
             .orders {
                 border-radius: 15px;
 
